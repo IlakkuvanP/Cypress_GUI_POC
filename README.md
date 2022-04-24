@@ -1,5 +1,7 @@
 # AUTOMATED SOFTWARE TESTING WITH CYPRESS
 :octocat: An open-source, fully built Cypress Framework in page object model with visual regression, lighthouse code audit, accessibility tests, mobile view port compatibility tests, browserstack, jenkins,docker configuration :evergreen_tree:
+Cypress provides better documentation and refer below
+Refer: https://docs.cypress.io/guides/getting-started/installing-cypress
 
 
 ## Pre-requisite Tools
@@ -22,7 +24,7 @@ It takes just 5 minutes to setup cypress framework 🚀
 2. npx cypress open
 3. click specific feature file [executionwillstart]
 
-## cmmd line Execution
+## cmd line Execution
 1. npm run test:mochawesomereport
 2. npm run test:allurereport
 3. npm run generatereport
@@ -41,9 +43,3 @@ It takes just 5 minutes to setup cypress framework 🚀
 2. Allure reports: 
     a. npm run test:allurereport
     b. npm run generatereport
-
-## BrowserStack Integration Steps
-1. Installation in repository: npm install -g browserstack-cypress-cli
-2. Create Json file of browserstack through: browserstack-cypress init
-3. Update the browserstack.json using standard configurations. (Example:https://www.browserstack.com/docs/automate/cypress)   
-4. Run the tests in browserstack: browserstack-cypress run
