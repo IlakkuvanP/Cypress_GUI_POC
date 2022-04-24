@@ -1,5 +1,6 @@
 # AUTOMATED SOFTWARE TESTING WITH CYPRESS
 :octocat: An open-source, fully built Cypress Framework in page object model with visual regression, lighthouse code audit, accessibility tests, mobile view port compatibility tests, browserstack, jenkins,docker configuration :evergreen_tree:
+
 Cypress provides better documentation and refer below
 Refer: https://docs.cypress.io/guides/getting-started/installing-cypress
 
